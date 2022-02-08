@@ -13,18 +13,21 @@ const GlobalStyle = createGlobalStyle`
 .app{
     width: 100vw;
     height: 100vh;
-    padding:5rem;
+    padding:5rem 1rem;
 }
 
 body{
  background-image: url('/img/anotacoes.jpeg');
- background-size: cover;
- background-repeat: repeat-y ;
- width: 100vh;
- height: 100%;
+ background-repeat: no-repeat;
+ width: 100vw;
+ height: 100vh;
 }
 
-
+@media screen and (min-width: 1920px){
+    body{
+        background-size: cover;
+    }
+}
 
 .title{
     font-size: 4rem;
@@ -42,6 +45,7 @@ body{
 
 .container{
     display: flex;
+    align-items: center;
     flex-direction: column ;
     width: 100%;
     height: 100%;
@@ -51,7 +55,7 @@ body{
     width: 100%;
     display: flex;
     justify-content: center;
-    padding-bottom: 1rem;
+    padding: 3rem 0;
 }
 
 
@@ -83,17 +87,27 @@ body{
     border-radius: 0 0.5rem 0.5rem 0;
 }
 
+.to-dos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 768px){
+    .to-dos{
+        width: 36rem;
+    }
+}
+
 .containerList{
     width: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     gap: 1.4rem;
-    padding: 2rem 4rem;
+    flex-direction: column;
 
     li{
-    width: 50%;
+    width: 100%;
     color: white;
     border-radius: 0.5rem;
     flex: 1;
@@ -101,25 +115,7 @@ body{
     justify-content: space-between;
     list-style: none;
     padding: 1rem;
-    @media screen and (max-width:1440px){
-        width:50%;
-    }
-    @media screen and (max-width:1190px){
-        width:70%;
-    }
-    @media screen and (max-width:940px){
-        width:90%;
-    }
-    @media screen and (max-width:690px){
-        width:150%;
-    }
-    @media screen and (max-width:446px){
-        width:220%;
-    } 
-    @media screen and (max-width:407px){
-        width: 500%;
-    }    
-   
+    
 
     p{
         max-width: 30rem;

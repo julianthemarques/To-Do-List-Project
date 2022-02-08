@@ -80,7 +80,7 @@ function TaskHook(props) {
           Add Todo
         </button>
       </div>
-      <div className="todos">
+      <div className="to-dos">
         <ul className="containerList">
           {todos.map((todo, index) => (
             <li key={index} id={todo.id} classname="todo">
