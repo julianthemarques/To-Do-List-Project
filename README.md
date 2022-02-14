@@ -10,7 +10,7 @@
 
 
 # <h1>Acesso</h1>
-<p>Você pode acessar o projeto em <a href="https://portfolio-blush-rho-30.vercel.app/" target="blank">https://portfolio-blush-rho-30.vercel.app/</a></p>
+<p>Você pode acessar o projeto em <a href="https://portfolio-blush-rho-30.vercel.app/" target="blank_">https://portfolio-blush-rho-30.vercel.app/</a></p>
 
 
 # <h1 id="Sobre">📜 Sobre</h1>
