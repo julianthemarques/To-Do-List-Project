@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a href="localhost:3000">Projeto Lista de Afazeres</a>
+  <a>Projeto Lista de Afazeres</a>
 </h1>
 
 <h1> Práticas de programação envolvidas</h1>
