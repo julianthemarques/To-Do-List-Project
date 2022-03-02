@@ -7,10 +7,11 @@
 - [X]  React
   - [X]  Programação Orientada a Objeto
   - [X]  Classe e State
+- [X]  Local Storage
 
 
 # <h1>Acesso</h1>
-<p>Você pode acessar o projeto aqui: <a href="https://portfolio-blush-rho-30.vercel.app/" target="blank_">https://portfolio-blush-rho-30.vercel.app/</a></p>
+<p>Você pode acessar o projeto aqui: <a href="https://to-do-list-project-two.vercel.app/" target="blank_">https://to-do-list-project-two.vercel.app/</a></p>
 
 
 # <h1 id="Sobre">📜 Sobre</h1>
