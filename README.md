@@ -19,6 +19,3 @@
 
  # <h1 id="Aviso">📜 Aviso</h1>
   O projeto To Do List foi criado primeiramente em formato de Classe, por isso temos o componente Tasks, posteriormente o código foi reescrito usando hooks, o componente TasksHooks é o único dentro da pasta components usado nesta aplicação, algumas pequenas alterações foram feitas, como a utilização de local storage para salvar alterações da utilização da aplicação e maneiras diferentes de reescrever o mesmo código.
-
-
-Link do Projeto: <a href="https://github.com/juulmrqs/Oficina-App">https://github.com/juulmrqs/Oficina-App</a> <br>
